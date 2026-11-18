@@ -1,0 +1,17 @@
+{
+  "name": "ineffable",
+  "owner": {
+    "name": "Luis Aviles · Ineffable Solutions",
+    "url": "https://ineffablesolutions.net"
+  },
+  "plugins": [
+    {
+      "name": "starter-kit",
+      "source": "./",
+      "description": "Start with Claude from zero: projects with CLAUDE.md, tasks, notes and a log, plus /new-project, /pick-up, /wrap-up and a short training."
+    }
+  ],
+  "metadata": {
+    "description": "Beginner-friendly Claude setups by Ineffable Solutions."
+  }
+}
