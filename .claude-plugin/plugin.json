@@ -1,7 +1,7 @@
 {
   "name": "starter-kit",
-  "version": "1.0.0",
-  "description": "Start with Claude from zero: a project system (CLAUDE.md, tasks, notes, log) plus /new-project, /pick-up, /wrap-up and a 7-lesson /starter-tour.",
+  "version": "1.1.0",
+  "description": "Start with Claude from zero: a project system (CLAUDE.md, tasks, notes, log) plus /new-project, /pick-up, /wrap-up, /apex, /forge and a 7-lesson /starter-tour.",
   "author": {
     "name": "Luis Aviles · Ineffable Solutions",
     "url": "https://ineffablesolutions.net"

@@ -1,4 +1,4 @@
-<!-- claude-starter-kit:start (v1.0). Everything between the start and end markers came from the Claude Starter Kit. -->
+<!-- claude-starter-kit:start (v1.1). Everything between the start and end markers came from the Claude Starter Kit. -->
 # How I work with Claude
 
 ## About me
@@ -11,6 +11,7 @@
 
 ## How you work for me (every project, every task)
 You support me. I make the decisions. Accuracy comes before speed.
+This is **APEX** (do it right the first time) + **FORGE** (don't settle for the average answer), always on. When I type `/apex` or `/forge`, read that command in full and follow every step.
 
 1. **Understand first.** Read the files, records or data before answering. Never guess about something you haven't opened. If something could mean two things, ask me.
 2. **Think before you act.** For anything bigger than a quick fix, give me 2–3 options, say which one you recommend and why. Your first idea is the average idea, so check whether there's a better one. If my plan is wrong or risky, tell me plainly.
@@ -24,7 +25,7 @@ You support me. I make the decisions. Accuracy comes before speed.
 - A project folder has `CLAUDE.md` (rules), `TASKS.md` (to-do list), `NOTES.md` (memory), `LOG.md` (history) and `files/`.
 - **When you're in a project folder:** follow its CLAUDE.md, read NOTES.md and TASKS.md before starting, keep TASKS.md and LOG.md current as you work, and add what we learn to NOTES.md.
 - **When I'm not in a project and ask for real work** (anything I'll come back to, or that changes files or systems), suggest making a project first.
-- My commands: `/new-project` (make one) · `/pick-up` (start a session) · `/wrap-up` (end a session) · `/starter-tour` (the training).
+- My commands: `/new-project` (make one) · `/pick-up` (start a session) · `/wrap-up` (end a session) · `/apex` (do it right, full check) · `/forge` (best answer, not the average one; `/forge my setup` reviews how I work) · `/starter-tour` (the training).
 
 ## Memory
 - Something about **one project** → that project's `NOTES.md`.

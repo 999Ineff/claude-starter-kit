@@ -10,7 +10,7 @@
 | What | Where | Why |
 |---|---|---|
 | A global instructions block | `~/.claude/CLAUDE.md` (added between `claude-starter-kit:start` / `end` markers) | So Claude knows who they are and how to work, in every chat |
-| 4 skills: `new-project`, `pick-up`, `wrap-up`, `starter-tour` | `~/.claude/skills/<name>/` | Their commands |
+| 6 skills: `new-project`, `pick-up`, `wrap-up`, `apex`, `forge`, `starter-tour` | `~/.claude/skills/<name>/` | Their commands |
 | A projects folder | `~/AI-Projects` (or the folder they choose) | Where their projects live |
 
 `~` is the user's home folder (`C:\Users\<name>` on Windows, `/Users/<name>` on Mac).
@@ -44,14 +44,14 @@ Tell the user, in 4–5 lines, what will be installed (the table above), and tha
    - **The existing file has other content:** add the block at the end, after one blank line. Don't change anything above it. If their existing instructions clearly contradict the kit's (for example, a different projects folder), point it out and ask which one wins.
 
 ## Step 5. Install the skills
-For each folder in the kit's `skills/` (`new-project`, `pick-up`, `wrap-up`, `starter-tour`): copy it, with everything inside it, to `~/.claude/skills/<same name>/`. If a folder with that name already exists and wasn't installed by this kit, ask before replacing it.
+For each folder in the kit's `skills/` (`new-project`, `pick-up`, `wrap-up`, `apex`, `forge`, `starter-tour`): copy it, with everything inside it, to `~/.claude/skills/<same name>/`. If a folder with that name already exists and wasn't installed by this kit, ask before replacing it.
 
 ## Step 6. Make the projects folder
 Create the projects folder from Step 3 if it doesn't exist.
 
 ## Step 7. Check your work
 - Read `~/.claude/CLAUDE.md` back. Confirm the block is there once, and that no `{{` placeholders are left.
-- Confirm each of the 4 skills has a `SKILL.md`, and that `new-project/template/` holds `CLAUDE.md`, `TASKS.md`, `NOTES.md`, `LOG.md` and `files/README.txt`.
+- Confirm each of the 6 skills has a `SKILL.md`, and that `new-project/template/` holds `CLAUDE.md`, `TASKS.md`, `NOTES.md`, `LOG.md` and `files/README.txt`.
 - Confirm the projects folder exists.
 - If anything failed, say exactly what and fix it. Don't report success you didn't check.
 
@@ -68,7 +68,7 @@ You can delete the temporary clone if you made one.
 
 ## Uninstall (when the user asks)
 1. Remove everything between the `claude-starter-kit:start` and `end` markers (including the markers) from `~/.claude/CLAUDE.md`. Or restore the `CLAUDE.md.backup-…` file if they prefer.
-2. Delete `~/.claude/skills/new-project`, `pick-up`, `wrap-up` and `starter-tour`.
+2. Delete `~/.claude/skills/new-project`, `pick-up`, `wrap-up`, `apex`, `forge` and `starter-tour`.
 3. **Never delete their projects folder or projects.** Those are their work.
 
 ## Update (when the user asks)

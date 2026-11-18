@@ -1,6 +1,6 @@
 # Claude Starter Kit
 
-**Start using Claude the right way, from zero.** One install gives Claude a set of instructions about you, a simple project system, four commands and a 7-lesson training. After that, every project opens with its own rules, to-do list, memory and history, and Claude keeps them up to date.
+**Start using Claude the right way, from zero.** One install gives Claude a set of instructions about you, a simple project system, six commands (including APEX and FORGE, the work standards I use every day) and a 7-lesson training. After that, every project opens with its own rules, to-do list, memory and history, and Claude keeps them up to date.
 
 No coding. You don't have to read the rest of this repo. It's written for Claude.
 
@@ -24,6 +24,8 @@ Claude explains what it will do, asks you 5 quick questions and installs everyth
 | `/new-project` | Claude asks 6 questions and builds a ready-to-use project folder |
 | `/pick-up` | Start of a session: "here's where we stopped and what's next" |
 | `/wrap-up` | End of a session: tasks, notes and log updated, handoff written |
+| `/apex` | **Do it right the first time.** Full check for important work: understand → options → only what was asked → check → report with proof |
+| `/forge` | **Don't settle for the average answer.** Challenge the first idea, look it up, look at the result, keep the lesson. `/forge my setup` suggests upgrades to how you work |
 | `/starter-tour` | 7 one-minute lessons on working with AI |
 
 **Every project looks like this**
@@ -38,11 +40,13 @@ AI-Projects/
     └── files/      ← your documents
 ```
 
-**How it's laid out.** Your four commands and your global instructions live in `~/.claude/`, so they work in every project. Each project is its own folder. Open one (`cd` into it, or pick it in the app), and Claude reads that project's `CLAUDE.md` plus your global one. Projects never see each other. `AI-Projects` is just a box that holds them; you can choose any folder.
+**How it's laid out.** Your commands and your global instructions live in `~/.claude/`, so they work in every project. Each project is its own folder. Open one (`cd` into it, or pick it in the app), and Claude reads that project's `CLAUDE.md` plus your global one. Projects never see each other. `AI-Projects` is just a box that holds them; you can choose any folder.
 
 **Your global instructions** (`~/.claude/CLAUDE.md`). Who you are, plus a simple work standard Claude follows everywhere:
 
 > Understand first → give options → check facts at the source → small batches → **done means checked** → report clearly. And never send, pay, delete or post without your "yes".
+
+That's **APEX + FORGE** in short form, always on. Type `/apex` or `/forge` to turn it all the way up.
 
 ## The daily rhythm
 
@@ -56,7 +60,7 @@ AI-Projects/
 2. Where Claude's instructions live
 3. How to ask: expectations + an example
 4. Done means checked
-5. Projects and your four commands
+5. Projects and your commands
 6. Teach it once
 7. Stay safe
 

@@ -43,11 +43,11 @@ AI is confident even when it's wrong, so make checking part of the job:
 - **Small batches first:** do 3–5, check them, then the rest.
 - If it says "done" without proof, ask: "How did you check that?"
 
-Your global CLAUDE.md already tells Claude to work this way. You're the one who holds it to it.
+Your global CLAUDE.md already tells Claude to work this way. That's **APEX** (do it right the first time) and **FORGE** (don't settle for the average answer), always on. For anything important, add `/apex` to your request to make it go through every step. Add `/forge` when you want its best thinking, not its first idea. You're the one who holds it to it.
 
 **Try it:** next time it finishes something, ask "show me how you checked it."
 
-## 5. Projects, and your four commands
+## 5. Projects, and your commands
 Real work lives in a **project**: one folder per piece of work, with its own CLAUDE.md, tasks, notes and log.
 
 | Command | What it does |
@@ -55,6 +55,8 @@ Real work lives in a **project**: one folder per piece of work, with its own CLA
 | `/new-project` | Asks a few questions and builds a ready-to-use project folder |
 | `/pick-up` | Reads the project and tells you where you stopped and what's next |
 | `/wrap-up` | Updates tasks, notes and log, and writes where you stopped |
+| `/apex` | Do it right: the full check, for important work |
+| `/forge` | Best answer, not the average one. `/forge my setup` suggests upgrades |
 | `/starter-tour` | This tour, any time |
 
 (Installed as a plugin in Cowork or the app? The same commands start with `/starter-kit:`, e.g. `/starter-kit:pick-up`.)
