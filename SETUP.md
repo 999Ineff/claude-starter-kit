@@ -32,7 +32,7 @@ Tell the user, in 4–5 lines, what will be installed (the table above), and tha
 2. What's your role? (e.g. "AP supervisor", "office manager", "owner")
 3. Company or team? (optional)
 4. What do you mostly want to use AI for? (a few words)
-5. Where should your projects live? Suggest `~/AI-Projects` with the real full path, and say "just say OK to use this".
+5. Where should your projects live? Suggest `~/AI-Projects` (one folder that just holds your projects) with the real full path, and say "just say OK to use this". Your home folder itself is fine too. Each project is its own folder either way.
 
 ## Step 4. Install the global instructions
 1. Make sure `~/.claude/` exists.

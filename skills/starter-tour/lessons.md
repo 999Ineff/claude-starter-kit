@@ -59,7 +59,17 @@ Real work lives in a **project**: one folder per piece of work, with its own CLA
 
 (Installed as a plugin in Cowork or the app? The same commands start with `/starter-kit:`, e.g. `/starter-kit:pick-up`.)
 
-Two built-in ones worth knowing: `/clear` starts fresh in the same window. `/context` shows how full the current chat is.
+Built into Claude Code, nothing to install:
+
+| Command | What it does |
+|---|---|
+| `/clear` | Fresh chat in the same window |
+| `/compact` | Shrinks a long chat into a summary and keeps going |
+| `/context` | Shows how full the current chat is |
+| `/resume` | Reopens an earlier chat |
+| `/rewind` | Undoes back to an earlier point |
+| `/memory` | Shows and edits your CLAUDE.md files and Claude's own memory |
+| `/help` | Everything else |
 
 **Try it:** say "what would make a good first project for me?"
 

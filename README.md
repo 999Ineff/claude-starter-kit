@@ -38,6 +38,8 @@ AI-Projects/
     └── files/      ← your documents
 ```
 
+**How it's laid out.** Your four commands and your global instructions live in `~/.claude/`, so they work in every project. Each project is its own folder. Open one (`cd` into it, or pick it in the app), and Claude reads that project's `CLAUDE.md` plus your global one. Projects never see each other. `AI-Projects` is just a box that holds them; you can choose any folder.
+
 **Your global instructions** (`~/.claude/CLAUDE.md`). Who you are, plus a simple work standard Claude follows everywhere:
 
 > Understand first → give options → check facts at the source → small batches → **done means checked** → report clearly. And never send, pay, delete or post without your "yes".
